@@ -6,6 +6,9 @@
 Traversy Media
 Cheat Sheet: https://gist.github.com/bradtraversy/c70a93d6536ed63786c434707b898d55#file-pipenv_cheat_sheet-md
 Youtube: https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA
+
+Corey Schafer
+Youtube: https://www.youtube.com/watch?v=zDYL22QNiWk&t=282s
 ```
 
 ## Pipenv Doc
@@ -48,7 +51,7 @@ quit()
 pipenv install camelcase
 ```
 
-## Install from Pipfile
+## Install from Pipfile(Similar to npm install)
 ```
 pipenv install
 ```
@@ -89,16 +92,16 @@ pipenv check
 pipenv graph
 ```
 
-## Ignore pipfile
-
-```
-pipenv install --ignore-pipfile
-```
-
-## Set lockfile - before deployment
+## Set lockfile - before deployment(Update Pipfile.lock with current dependencies)
 
 ```
 pipenv lock
+```
+
+## Ignore pipfile(Install for Production)
+
+```
+pipenv install --ignore-pipfile
 ```
 
 ## Exiting the virtualenv
@@ -111,4 +114,16 @@ exit
 
 ```
 pipenv run *
+```
+
+## Remove virtualenv
+
+```
+pipenv --rm
+```
+
+## Path to Virtualenv
+
+```
+pipenv --venv
 ```
