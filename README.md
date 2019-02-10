@@ -8,6 +8,13 @@ Cheat Sheet: https://gist.github.com/bradtraversy/c70a93d6536ed63786c434707b898d
 Youtube: https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA
 ```
 
+## Pipenv Doc
+
+```
+Documentation: [link](https://pipenv.readthedocs.io/en/latest/)
+Basic_Usage: [link](https://pipenv.readthedocs.io/en/latest/basics/#general-recommendations-version-control)
+```
+
 ## Install pipenv
 
 ```
@@ -39,6 +46,11 @@ quit()
 
 ```
 pipenv install camelcase
+```
+
+## Install from Pipfile
+```
+pipenv install
 ```
 
 ## Check local packages
